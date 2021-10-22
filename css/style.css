@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue-color: #0061FF;
+    --light-blue-color: #B4D0E7;
+    --dark-red-color: #61082B;
+  }
+
+html {
+    font-size: 100%;
+}
+
+/* container */
+
+.container-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* column */
+
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.row .col {
+    float: left;
+    /* border: 1px solid red; */
+}
+
+/* nav */
