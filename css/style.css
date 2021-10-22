@@ -38,8 +38,8 @@ li {
     margin: 0 auto;
 }
 
-.container-60 {
-    width: 60%;
+.container-70 {
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -67,12 +67,32 @@ li {
     padding:10px;
 }
 
+.pdt-5{
+    padding-top: 5px;
+}
+
+.pdt-10 {
+    padding-top: 10px;
+}
+
 .pdt-20{
     padding-top: 20px;
 }
 
+.pdt-30 {
+    padding-top: 30px;
+}
+
+.pdb-30 {
+    padding-bottom: 30px;
+}
+
 .pdt-200 {
     padding-top: 200px;
+}
+
+.pdd-0-20 {
+    padding: 0 20px;
 }
 
 /* margin */
@@ -203,7 +223,7 @@ nav .dx {
     height: 100vh;
 }
 
-#business .container-60{
+#business .container-70{
     padding-top: 20em;
     background-color: salmon;
     height: 100vh;
@@ -217,4 +237,18 @@ nav .dx {
     height: 100vh;
     border: solid 1px black;
     width: calc(100% / 3 - 80px);
+}
+
+.buy span{
+    border-bottom: 1px solid black ;
+   padding-bottom: 25px;
+   display: inline-block;
+}
+
+.list-check {
+    line-height: 38px;
+}
+
+.fa-check {
+    color: #0061FF;
 }
