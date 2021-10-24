@@ -164,6 +164,10 @@ li {
     margin: 0 120px;
 }
 
+.margin-0-30 {
+    margin: 0 30px;
+}
+
 /* position */
 
 .relative {
@@ -385,4 +389,104 @@ nav .col {
     border: 1px black solid;
     color: black;
     font-weight: 500;
+}
+
+/* operation busuness */
+
+#operation img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+#operation .col {
+    width: calc(100% / 3 - 20px);
+}
+
+#operation h1 {
+    font-size: 3em;
+}
+
+#operation h2 {
+    font-size: 2em;
+}
+
+#operation p {
+    padding-right: 130px;
+    line-height: 1.5em;
+}
+
+#dpaper {
+    text-decoration: underline;
+}
+
+/* team */
+
+.cont-3 {
+    background-color: chartreuse;
+    width: 100%;
+    height: 700px;
+}
+
+#team .cln{
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: chocolate;
+}
+
+.cln>.col {
+   
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+}
+
+#team .col img {
+    position: absolute;
+    max-width: 100%;
+    width: 50%;
+    object-fit: contain;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
+
+}
+
+/* background */
+
+.lo-green {
+    background-color: #A2D39B;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-green {
+    background-color: #D0E9CD;
+    padding: 10px;
+}
+
+.bg-bord {
+    background-color: #61082B;
+}
+
+.bg-ltblue {
+    background-color: #0093CE;
+}
+
+.bg-orange {
+    background-color: #FF1C1C;
+}
+
+.bg-red{
+    background-color: #D5001F;
+}
+
+.bg-az {
+    background-color: #B4D0E7;
+}
+
+.bg-blue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
 }
