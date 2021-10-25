@@ -341,9 +341,9 @@ nav .col {
 #business .clmn-3{
     /* height: 100vh; */
     /* height: 100%; */
-    border: solid 1px black;
+    border: solid 1px #D5D5D7;
     width: calc(100% / 3 - 80px);
-    height: 900px;
+    /* height: 900px; */
 }
 
 .buy span{
@@ -364,7 +364,7 @@ nav .col {
 
 .team-enterprise{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #D5D5D7;
 }
 
 .enterprise-title{
