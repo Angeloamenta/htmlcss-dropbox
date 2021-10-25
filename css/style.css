@@ -375,6 +375,10 @@ nav .col {
 
 /* dropbox partner */
 
+.bluelist {
+    list-style-position: outside;
+}
+
 
 .partner-img img {
     max-width: 100%;
@@ -389,12 +393,14 @@ nav .col {
     font-weight: 600;
 }
 
+
 #partner .btn{
     background-color: white;
     border: 1px black solid;
     color: black;
     font-weight: 500;
 }
+
 
 /* operation busuness */
 
@@ -554,4 +560,26 @@ nav .col {
     width: 100%;
     background-color: white;
     color: black;
+}
+
+/* domande */
+
+.title-qa h2 {
+    font-size: 2.5em;
+    padding-top: 150px;
+    padding-bottom: 50px
+}
+
+.list-qa {
+    border-top: 1px lightgray solid;
+}
+.list-qa li{
+    padding: 40px 0;
+    border-bottom: 1px lightgray solid;
+    font-weight: 800;
+}
+
+.list-qa span{
+    right: 30px;
+    font-size: 1.5em;
 }
