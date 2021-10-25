@@ -247,7 +247,7 @@ nav .col {
 
 
 
-.sx a:hover{
+.sx li a:hover{
     border-bottom: 2px solid #0061FF;  
 }
 
@@ -273,6 +273,17 @@ nav .col {
 .dx ul {
     right: 20px;
 }
+
+/* dropdown */
+
+
+
+
+
+
+
+
+
 
 
 /* jumbotron */
