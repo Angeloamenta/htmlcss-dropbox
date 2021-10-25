@@ -154,6 +154,9 @@ li {
     padding: 50px;
 }
 
+.pdb-40 {
+    padding-bottom: 40px;
+}
 /* margin */
 
 .margint-30{
@@ -295,6 +298,7 @@ nav .col {
 .fa-arrow-down {
     padding-top: 50px;
     font-size: 2.5em;
+    color: black;
 }
 
 .col-60 {
@@ -564,6 +568,10 @@ nav .col {
 
 /* domande */
 
+#questions {
+    padding-bottom: 150px;
+}
+
 .title-qa h2 {
     font-size: 2.5em;
     padding-top: 150px;
@@ -582,4 +590,33 @@ nav .col {
 .list-qa span{
     right: 30px;
     font-size: 1.5em;
+}
+
+/* footer */
+
+footer {
+    color: white;
+    background-color: black;
+    padding-top: 150px;
+}
+
+footer .row {
+    padding-bottom: 150px;
+}
+
+footer h3 {
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: white;
+    line-height: 2em;
+}
+
+footer .col {
+    width: calc(100% / 5);
+}
+
+.language {
+    padding-bottom: 50px;
 }
