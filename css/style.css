@@ -276,10 +276,24 @@ nav .col {
 
 /* dropdown */
 
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    top: 82px;
+    left: 134px;
+  }
 
 
-
-
+  .sx li:active .menu,
+  .sx li:focus .menu,
+  .sx li:hover .menu{
+    display: block;
+  }
 
 
 
