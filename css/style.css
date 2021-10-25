@@ -110,6 +110,10 @@ li {
     padding:10px;
 }
 
+.pdd-9-100{
+    padding: 9%;
+}
+
 .pdd-15{
     padding: 15px;
 }
@@ -534,4 +538,20 @@ nav .col {
 
 .clcenter .firma {
    padding-top: 60px;
+}
+
+/* bring dropbox business */
+
+.azure .title{
+    color: #61082B;
+}
+
+.azure .txt-center {
+    padding-top: 12%;
+}
+
+.azure .txt-center .btn{
+    width: 100%;
+    background-color: white;
+    color: black;
 }
