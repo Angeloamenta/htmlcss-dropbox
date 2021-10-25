@@ -47,7 +47,7 @@ li {
 .clmn-title{
     line-height: 2em;
     height: 2em;
-    border-bottom: 1px black solid;
+    border-bottom: 1px #D5D5D7 solid;
 }
 
 .row::after {
@@ -245,8 +245,14 @@ nav .col {
     width: 100%;
 }
 
+
+
+.sx a:hover{
+    border-bottom: 2px solid #0061FF;  
+}
+
 .dx a:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #0061FF;
 }
 
 .dx a{
@@ -359,7 +365,7 @@ nav .col {
 }
 
 .buy span{
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid #D5D5D7 ;
    padding-bottom: 25px;
    display: inline-block;
 }
@@ -373,6 +379,14 @@ nav .col {
     color: #0061FF;
 }
 
+.d-lblock{
+    display: inline-block;
+    height: 100%;
+}
+
+.check-blue img {
+    width: 15px;
+}
 /* enterprise */
 
 .team-enterprise{
