@@ -295,7 +295,7 @@ nav .dx {
 }
 
 .dx .menu a:hover {
-    background-color: #b6b6b6;
+    background-color: #B4D0E7;
 }
 
 .dx a{
@@ -326,11 +326,31 @@ nav .dx {
     background-color: #f9f9f9;
     min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    /* padding: 12px 16px; */
     z-index: 1;
-    top: 82px;
-    left: -55px;
+    top: 95px;
   }
+
+.menu::after{
+    content: "";
+  position: absolute;
+  bottom: 100%; 
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.m-1{
+    position: absolute;
+    left: -40px;
+}
+
+.m-2 {
+    position: absolute;
+    left: 255px;
+}
 
 
   .dx li:active .menu,
@@ -338,11 +358,6 @@ nav .dx {
   .dx li:hover .menu{
     display: block;
   }
-
-
-
-
-
 
 /* jumbotron */
 
