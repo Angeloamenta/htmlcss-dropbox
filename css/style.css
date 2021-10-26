@@ -426,6 +426,7 @@ nav .dx {
     width: 100%;
 }
 
+
 .business-title h2 {
     font-size: 3em;
 }
@@ -567,8 +568,8 @@ nav .dx {
 
 /* team */
 
-#team h1 {
-    font-size: 3em;
+#team h2 {
+    font-size: 2em;
     padding: 30px 0;
 }
 
