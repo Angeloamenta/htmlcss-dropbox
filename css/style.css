@@ -228,11 +228,40 @@ nav{
     z-index: 9999;
 }
 
-nav .col {
-    width: calc(100% / 2);
+nav .sx,
+nav .dx {
     height: 100%;
     line-height: 80px;
 
+}
+
+.col-logo {
+    width: 10%;
+    height: 100%;
+}
+
+.col-logo a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dx .col {
+    position: absolute;
+    right: 0;
+}
+
+.access {
+    width: 10%;
+    height: 100%;
+}
+
+.access .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .nav-col ul{
@@ -240,9 +269,6 @@ nav .col {
 
 }
 
-.col.sx > a {
-    vertical-align: text-bottom;
-}
 
 .sx>ul a {
     display: block;
@@ -250,14 +276,24 @@ nav .col {
     width: 100%;
 }
 
+.sx {
+    width: 40%;
+}
 
+.dx {
+    width: 40%; 
+}
 
-.sx li a:hover{
+.sx li>a:hover{
     border-bottom: 2px solid #0061FF;  
 }
 
-.dx a:hover{
+.dx li>a:hover{
     border-bottom: 2px solid #0061FF;
+}
+
+.dx .menu a:hover {
+    background-color: #b6b6b6;
 }
 
 .dx a{
@@ -282,21 +318,22 @@ nav .col {
 /* dropdown */
 
 .menu {
+    text-align: center;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
     top: 82px;
-    left: 134px;
+    left: -55px;
   }
 
 
-  .sx li:active .menu,
-  .sx li:focus .menu,
-  .sx li:hover .menu{
+  .dx li:active .menu,
+  .dx li:focus .menu,
+  .dx li:hover .menu{
     display: block;
   }
 
