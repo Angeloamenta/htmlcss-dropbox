@@ -32,6 +32,10 @@ li {
     list-style: none;
 }
 
+.pointer:hover{
+    cursor: pointer;
+}
+
 /* container */
 
 .container-80 {
