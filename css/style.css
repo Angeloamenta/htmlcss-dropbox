@@ -36,6 +36,11 @@ li {
     cursor: pointer;
 }
 
+a .btn:hover {
+    filter: opacity(80%);
+    cursor: pointer;
+}
+
 /* container */
 
 .container-80 {
@@ -468,12 +473,13 @@ nav .dx {
     width: 15px;
 }
 
-.cont-95{
-    width: 95%;
+.cont-85{
+    width: 85%;
 }
 
 .cont-5{
     width: 5%;
+    margin-right: 10px;
 }
 
 /* enterprise */
@@ -721,7 +727,7 @@ nav .dx {
 
 .sub-list {
     display: none;
-    color: lightgrey;
+    color: grey;
     margin-top: 20px;
     padding-right: 15%;
     font-weight: 500;
@@ -774,6 +780,14 @@ footer .col {
     padding-bottom: 50px;
 }
 
+.language:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin-bottom: 30px;
+    background-color: lightgrey;
+}
 
 footer .container-80 ul li:hover{
     text-decoration: underline;
