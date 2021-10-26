@@ -344,10 +344,6 @@ nav .col {
 }
 
 
-#business{
-    /* background-color: yellowgreen; */
-    /* height: 100vh; */
-}
 
 #business .container-70{
     padding-top: 10em;
@@ -448,9 +444,7 @@ nav .col {
     border: 0;
 }
 
-.bluelist{
-    /* list-style: url("../img/Blue_check.svg.png"); */
-}
+
 
 /* dropbox partner */
 
@@ -664,6 +658,34 @@ nav .col {
     font-size: 1.5em;
 }
 
+/* q&a hover */
+
+.sub-list {
+    display: none;
+    color: lightgrey;
+    margin-top: 20px;
+    padding-right: 15%;
+    font-weight: 500;
+}
+
+.fa-chevron-up {
+    display: none;
+}
+
+.q-a:hover .fa-chevron-up {
+    display: block;
+}
+
+.q-a:hover .fa-angle-down {
+    display: none;
+}
+
+
+.q-a:hover .sub-list{
+    display: block;
+}
+
+
 /* footer */
 
 footer {
@@ -694,4 +716,3 @@ footer .col {
 }
 
 
-@
