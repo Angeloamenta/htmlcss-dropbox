@@ -386,7 +386,42 @@ nav .dx {
     width: 95%;
 }
 
+/* nusines plan */
 
+.plan input[type="radio"] {
+    appearance: none;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+    vertical-align: sub;
+}
+
+.plan label {
+    margin-right: 16px;
+    position: relative;
+    font-size: 1.3em;
+}
+
+.plan input:checked + label::before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    content: "";
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    display: inline-block;
+    border: 4px solid var(--blue-color);
+    border-radius: 50%;
+}
+
+.plan input:not(:checked) + label:before {
+    display: none;
+}
 
 #business .container-70{
     padding-top: 10em;
@@ -595,6 +630,15 @@ nav .dx {
 
 }
 
+/* test responsive, ma la parte centrale si allunga. I quadrati rispondono correttamente
+.clsx .col:after,
+.cldx .col:after,
+.clcenter .col:after{
+    content: "";
+    display: block;
+    margin-bottom: 100%;
+} */
+
 /* background */
 
 .lo-green {
@@ -607,6 +651,7 @@ nav .dx {
     background-color: #D0E9CD;
     padding: 10px;
 }
+
 
 .bg-bord {
     background-color: #61082B;
