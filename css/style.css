@@ -24,7 +24,7 @@ html {
 /* link */
 a {
     text-decoration: none;
-  }
+}
 
 /* list */
 
@@ -68,8 +68,6 @@ a .btn:hover {
 
 .row .col {
     float: left;
-    
-    /* border: 1px solid red; */
 }
 
 .col-80{
@@ -88,14 +86,12 @@ a .btn:hover {
 .col-30{
     width: 30%;
     height: 100%;
-    
 }
 
 
 .col-40{
     width: 40%;
-    height: 100%;
-    
+    height: 100%; 
 }
 
 .col-50{
@@ -106,12 +102,10 @@ a .btn:hover {
 .col-60{
     width: 60%;
     height: 100%;
-    
 }
 .col-70{
     width: 70%;
-    height: 100%;
-    
+    height: 100%;   
 }
 
 /* padding */
@@ -213,17 +207,6 @@ a .btn {
     font-size: 1em;
 }
 
-/* .a .btn2{
-    a .btn {
-        display: inline-block;
-        text-decoration: none;
-        padding: 0.2em 1em;
-        background-color: var(--blue-color);
-        color: white;
-        font-size: 1em;
-    }
-} */
-
 /* nav */
 nav{
     width: 100%;
@@ -237,7 +220,6 @@ nav .sx,
 nav .dx {
     height: 100%;
     line-height: 80px;
-
 }
 
 .col-logo {
@@ -273,7 +255,6 @@ nav .dx {
 
 .nav-col ul{
     display: inline-block;
-
 }
 
 
@@ -331,20 +312,19 @@ nav .dx {
     background-color: #f9f9f9;
     min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    /* padding: 12px 16px; */
     z-index: 1;
     top: 95px;
-  }
+}
 
 .menu::after{
     content: "";
-  position: absolute;
-  bottom: 100%; 
-  left: 50%;
-  margin-left: -5px;
-  border-width: 10px;
-  border-style: solid;
-  border-color: transparent transparent white transparent;
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
 }
 
 .m-1{
@@ -358,18 +338,17 @@ nav .dx {
 }
 
 
-  .dx li:active .menu,
-  .dx li:focus .menu,
-  .dx li:hover .menu{
+.dx li:active .menu,
+.dx li:focus .menu,
+.dx li:hover .menu {
     display: block;
-  }
+}
 
 /* jumbotron */
 
 .jumbotron{
     background-color: var(--light-blue-color) ;
     width: 100%;
-
 }
 
 .jumbotron .title h1{
@@ -411,8 +390,6 @@ nav .dx {
 
 #business .container-70{
     padding-top: 10em;
-    /* background-color: salmon; */
-    /* height: 100vh; */
 }
 
 
@@ -430,6 +407,7 @@ nav .dx {
 .business-title h2 {
     font-size: 3em;
 }
+
 .fa-regular,
 .fa-circle-dot {
     color: #0093CE;
@@ -442,11 +420,8 @@ nav .dx {
 }
 
 #business .clmn-3{
-    /* height: 100vh; */
-    /* height: 100%; */
     border: solid 1px  #D5D5D7;
     width: calc(100% / 3 - 80px);
-    /* height: 900px; */
     min-height: 1000px;
 }
 
@@ -525,8 +500,6 @@ nav .dx {
 
 /* dropbox partner */
 
-
-
 .partner-img img {
     max-width: 100%;
 }
@@ -596,7 +569,6 @@ nav .dx {
 }
 
 .cont-3 {
-    
     width: 100%;
     height: 600px;
 }
@@ -606,8 +578,7 @@ nav .dx {
     width: calc(100% / 3);
 }
 
-.cln>.col {
-   
+.cln>.col { 
     height: calc(100% / 2);
     width: calc(100% / 2);
 }
@@ -670,7 +641,6 @@ nav .dx {
 .clcenter img {
     padding-top: 60px;
     width: 200px;
-
 }
 
 .line {
